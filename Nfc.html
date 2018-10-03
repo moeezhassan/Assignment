@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Home </title>
+	<link rel="stylesheet" type="text/css" href="N.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+</head>
+<body>
+	<div class="bodyAdjustment">
+	<div class="Header">
+		<a href="#default" class="logo"> <img class="img1" src="NFC-IET_logo_2.jpg" height="60" width="90">  </a>
+		<a href="#default" class="txt"> <h4 class="name" > NFC Institute of Engineering & Technology </h4>	</a>	
+		<div class="search">
+			<input class="box" type="text" placeholder="Search..">
+			<a  href="#"><img class="s" src="2.png" height="20" width="20"></a>
+		</div>
+		</div>
+    <div class="nav">
+			<ul>
+				
+	    	<li> <a id="a" href="#">HOME</a>  </li>
+		    <li class="dropdown"><a id="a" href="#"><i id="b"class="fa fa-caret-down"></i>ABOUT
+				 	<ul class="dropdown-content">
+					<li>Multan City</li>
+					<li>Vice Chancellor</li>
+					<li>Facilitation For Doing Business</li>
+					</ul>  
+				</a>
+				</li>
+				 <li class="dropdown"><a id="a" href=""><i id="b"class="fa fa-caret-down"></i>PROGRAMS
+					<ul class="dropdown-content">
+					<li>Environmental Engineering</li>
+					<li>Petroleum & Gas Enginnering</li>
+					<li>Chemical Enginnering</li>
+					<li>Energy System Engineering</li>
+					<li>Biomedical Engineering</li>
+					<li>Civil Engineering</li>
+					<li>Mechanical Engineering</li>
+					<li>Electrical Engineering</li>
+					<li>Architect Design</li>
+					<li>Computer Science</li>
+					<li>Business Administration</li>
+				</ul>
+				</a>
+				</li>
+				<li class="dropdown"><a id="a" href=""><i id="b"class="fa fa-caret-down"></i>DEPARTMENTS
+					<ul class="dropdown-content">
+					<li>Petroleum & Gas Enginnering</li>
+					<li>Architect Design</li>
+					<li>Computer Science</li>
+					<li>Business Administration</li>
+					<li>Environmental Engineering</li>
+					<li>Electrical Engineering</li>
+					<li>Chemical Engineering</li>
+					<li>Mechanical Engineering</li>
+					<li>Civil Engineering</li>
+				</ul>
+				</a>
+				</li>
+				<li class="dropdown"><a id="a" href=""><i id="b"class="fa fa-caret-down"></i>ADMISSIONS
+					<ul class="dropdown-content">
+					<li>Academic Calender</li>
+					<li>Admission Policy</li>
+					<li>Admission Process</li>
+					<li>Seats Breakup</li>
+					<li>Dues & Fee Structure</li>
+					<li>Submission of Ducoments</li>
+					<li>Entry Test</li>
+					<li>Rules & Regulations</li>
+					<li>Student Conduct</li>
+					<li>Terms & Conditions</li> 
+				</ul>
+				</a>
+				</li>
+
+				<li class="dropdown"><a id="a" href=""><i id="b"class="fa fa-caret-down"></i>OFFICES
+					<ul class="dropdown-content">
+					<li>The Registrar</li>
+				    <li>Controller Examination</li>
+					<li>Treasurer</li>
+					<li>HRD</li>
+					<li>Miscellaneous</li>
+				</ul>
+				</a>
+				</li>
+				<li class="dropdown"><a id="a" href=""><i id="b"class="fa fa-caret-down"></i>LIFE AT IET
+					<ul class="dropdown-content">
+					<li>Student Socities</li>
+					<li>Industrial Tours</li>
+					<li>Career Planning</li>
+					<li>ICE</li>
+					<li>ILC</li>
+					<li>Gallery</li>
+				</ul>
+				</a>
+				</li>
+				<li class="dropdown"><a id="a" href=""><i id="b"class="fa fa-caret-down"></i>CONTACT
+					<ul class="dropdown-content">
+					<li>Directory</li>
+					<li>Social Networks</li>
+				</ul>
+				</a>
+				</li> 
+			</ul>
+		</div>
+
+<div class="slides">
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+    <img src="1st.jpg" width=70% height=450px>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+    <img src="2.jpg" width=70% height=450px>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+    <img src="3.jpg" width=70% height=450px>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+    <img src="14.jpg" width=70% height=450px>
+  </div>
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</div>
+		
+<div class="icons">
+	<button class="btn1"> <i class="fa fa-briefcase" aria-hidden="true"></i> </button>
+	<button	class="btn2"><i class="fa fa-dollar" aria-hidden="true"></i> </button>
+	<button	class="btn3"><i class="fa fa-line-chart" aria-hidden="true"></i></button>
+	<button	class="btn4"><i class="fa fa-book" aria-hidden="true"></i></button>
+ 	<button	class="btn5"><i class="fa fa-edit" aria-hidden="true"></i></button>
+ 	<button	class="btn6"><i class="fa fa-file-text" aria-hidden="true"></i></button>
+ 	<button class="btn7"><i class="fa fa-users" aria-hidden="true"></i></button>
+ 	<button	class="btn8"><i class="fa fa-star" aria-hidden="true"></i></button>
+
+	
+</div>
+<div class="info">
+	<div class="chr">
+		
+		<img src="chancellor.jpeg" width="150" height="200" style="float: left;">
+		<div class="vc">
+		<a id="name" href="">Mr. Arif-ur-Rehman Alvi</a>
+		<p>Chancellor</p>
+		<a id="name"href="">Profile</a>
+		</div>
+		
+	</div>
+	<div class="vic">
+		<img src="vice.jpg" style="float: left;">
+		<div class="vc">
+		<a id="name" href="">Dr. Akhtar Ali Malik </a>
+		<p>Professor <br>Vice Chancellor</p>
+		<a id="name"href="">VC Message</a>
+		</div>
+		
+	</div>
+</div>
+<div class="main">
+	<div class="left">
+	
+		<h3>NFC IET MULTAN</h3>
+		<img src="nfc.jpg" width="150" height="100" style="float: left; margin-top: 45px">
+		<p>National Fertilizer Corporation of Pakistan  is  one  of  the  largest  employers of qualified engineers particularly in the field of Chemical  Engineering.  In  order  to meet the requirement of trained manpower for chemical process industry especially in the fertilizer sector, a Training Center was established in 1985 with the technical assistance of M/s. COSMO International Co., Ltd., Japan.  The  Center   trained   managers, engineers, supervisors,  operators/  technicians  through  multi-dimensional programs that vary widely in content and duration for all types of process and engineering industry.
+		To further diversify the activities of the Centre and in line with the education policy announced by the Government of Pakistan,  NFC  with  the  approval  of  Ministry  of Industries & Production, Government of Pakistan upgraded the Centre in 1994  and started graduate engineering classes initially in Chemical Engineering discipline and changed its nomenclature as “NFC  Institute  of  Engineering  & Technological training”. This was also the need of the country and particularly of this area</p>
+		<a href=""><img src="social-media-icons.png" style="margin: 20px;"></a>
+	</div>
+
+	<div class="second">
+		
+		<h3>PEC ACCREDITATION STATUS</h3>
+		<a href=""><img src="PEC_logo.gif"></a>
+		<a href=""><img src="AdmissionOpen.png" style="margin-left: 30px"></a>
+		<br><h3>PCATP ACCREDATION STATUS</h3>
+		<a href=""><img src="PCATP-Logo.jpg" width="200" height="180"></a>
+		<a href=""><img src="1.jpg" width="230" height="180"></a>
+	</div>
+</div>
+</div>
+<footer>
+		<div class="mm2">
+<div class="mm">
+
+	<div class="d">
+		<center>
+		
+	 <div class="a">
+		
+		<h5 class="m1">FEEDBACK</h5>
+		
+		<img src="feedback.png" class="m3" >
+	</div>
+
+	<div class="b">
+		
+      	<h5 style="color: white"><span>CONTACT US</span></h5>
+		<p style="color: lightblue">NFC IET, PO Opposite Pak Arab Fertilizers, Khanewal Road, Multan, Pakistan</p>
+		<ul style="list-style: none;">
+			<li style="color:lightblue"> <strong> Hot Line: <span class="m1">+92-61-9220012</span></strong></li>
+			<li style="color: lightblue"><STRONG >Email: <span><u>info@nfciet.edu.pk</u></span></STRONG></li>
+		</ul>
+     
+	</div>
+	<div class="c">
+			<h5 class="m1"><center>CONNECT WITH US</center></h5>
+			<p style="color:lightblue">We're on Social Networks. Follow us & get in touch.</p>
+			<img src="c1.png"><br>
+			<img src="logo_HD.png" class="i"><img src="email.png" class="i" style="padding-left: 50px;">	
+
+	</div>
+	<div class="e">
+		<h5 class="m1"> Online services</h5>
+		<img src="img.png" class="abc">
+		<h5 class="m1"> Online Users</h5>
+		<p style="color: lightblue">We have 53 guests and no members online</p>
+	</div>
+</center>
+
+
+	</div>
+	<div class="i_u">
+		<span style="color: lightblue ;padding-left: 30px;" >You are here:  Home</span>
+		
+	</div>
+	<div class="i_u_f">
+		<span style="margin-left: 70px;">Copyright © 2016 NFC IET  .All rights reserved </span><br><br>
+
+ <span>Designed & Maintained by: <span style="color: white"></span> - Department of computer science</span>
+	</div>
+
+
+	</div>
+</div>
+</body>
+
+</html>
+
+

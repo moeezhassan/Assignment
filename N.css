@@ -1,0 +1,537 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.bodyAdjustment
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.Header{
+	background-color:#0c426f;
+	height: 90px;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-left: 200px;
+	margin-top: 13px;
+}
+.txt{
+	float: left;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+.name{
+	margin-top: 30px;
+	text-indent: 10px;
+}
+.search{
+	float: right;
+	padding: 15px;
+	margin-right: 200px;
+	margin-top: 12px;
+}
+.box{
+	width: 260px;
+	height: 30px;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #124579;
+	text-indent: 10px;
+
+}
+::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+/*.i{ 
+
+	background-color:#113e6b ;
+}*/
+.s{ 
+	margin-top: 5px;
+	background-color:#113e6b ;
+	border-radius: 20px;
+	padding-left: 10px;
+	cursor: pointer;
+	display: inline-block;
+}
+.s:hover{
+	background-color: black;
+	height: 20px;
+	width: 20px;
+}
+.nav{
+	background-color: #113e6b;
+		border:0.5 px solid #1f537e ;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+.nav ul li {
+	display: inline-block;
+	padding: 18px;
+	margin-top: 0px;
+	border: 0.5px solid #1f537e ;
+	font-size: 14px;
+	position: relative;
+}
+
+a {
+	color: inherit;
+}
+
+.nav {
+	overflow: visible;
+}
+
+/*nav ul li ul {
+	top: 100%;
+	left: 0;
+	opacity: 0;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	color: white;
+	z-index: 50;
+	overflow: visible;
+	transition: all .5s;
+	/*display: none;*/
+}*/
+
+.nav ul li:hover ul {
+	
+	opacity: 0.5;
+}
+.nav ul li ul li{
+	background-color: #113e6b;
+	border: none;
+	text-align:left;
+		text-indent: -15px;
+	font-weight: normal;
+    transition: all .5s;
+       display: block;
+	}
+.dropdown {
+    position: absolute;
+    /*display: block;*/
+}
+
+.dropdown-content {
+	left: 0;
+    display: none;
+    position: absolute;
+    background-color: #113e6b;
+    border:none;
+    color:white;
+    padding-left: 4px;
+    padding-top: 15px;
+    min-width: 200px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    /*padding: 10px 0px;*/
+    z-index: 1011;
+    text-transform: none;
+    font-weight: normal;
+    transition: all .5s;
+    font-size: 7px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+#c{
+	text-decoration: none;
+}
+
+#a{
+	text-decoration: none;
+	color: white;
+}
+#b{
+	color: white;
+	padding-right: 5px;
+}
+.btn1{
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /*text-decoration: none;*/
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.icons{
+	margin-left: 210px;
+	margin-top: 10px;
+}
+.icons button:hover {
+		background-color:  black;
+
+}
+.btn2{
+	position: relative;
+	left: 15px;
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.btn3{
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    position: relative;
+	left: 30px;
+}
+.btn4{
+	position: relative;
+	left: 45px;
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.btn5{
+	position: relative;
+	left: 60px;
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.btn6{
+	position: relative;
+	left: 75px;
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.btn7{
+	position: relative;
+	left: 90px;
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+.btn8{
+	position: relative;
+	left: 105px;
+	border-radius: 50%;
+	margin: 4px 2px;
+    cursor: pointer;
+    font-size: 35px;
+    background-color: #e2e3e4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slides {
+  position: relative;
+  left: 200px;
+  /*right: 200px;*/
+ }
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 405px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.info
+{
+	width: 100%;
+	margin-left: 190px;
+	margin-top: 30px;
+}
+#name{
+	text-decoration: none;
+	font-weight: bolder;
+	line-height: 1.8;
+}
+.info .chr
+{
+	width: 50%;
+	float: left;
+}
+.info .vic
+{
+	width: 50%;
+	float:right;
+}
+.vc
+{
+	float:left;
+	padding-left: 20px;
+}
+.main
+{
+	width: 80%;
+	margin-left: 180px;
+}
+.main .left
+{
+	width: 50%;
+	float:left;
+	margin-top: 30px;
+}
+
+.main .left a
+{
+	padding: 12px;
+	width: 100%;
+	margin: 20px;
+}
+.main .left p
+{
+	text-align: justify;
+	padding: 20px;
+}
+.main .right
+{
+	width: 50%;
+	float: left;
+}
+
+
+
+
+
+.a
+{
+	background-color:#113e6b;;
+	height: 250px; 
+	width: 250px;
+	float: left;
+}
+.b
+{
+
+
+	background-color: #113e6b;;
+	height: 250px; 
+	width: 270px;
+	float: left;
+	margin-left: 0px;
+	
+
+}
+.c
+{
+
+	background-color: #113e6b;;
+	height: 250px; 
+	width: 270px;
+	float: left;
+	margin-left: 0px;
+	
+}
+.d
+{
+	height: 250px;
+	width: 1060px;
+	background-color:;
+}
+.e
+{
+	background-color:#113e6b;;
+	height: 250px; 
+	width: 270px;
+	float: left;
+	margin-left: 0px;
+}
+.m1 
+{
+	color: white;
+	margin-left: 15px;
+}
+.m2
+{
+	background-color:#113e6b;
+	height: 300px;
+}
+.m3
+{
+	width: 150px;
+	padding-left: 30px;
+}
+.abc
+{
+	padding-left: 50px;
+}
+.i
+{
+	width: 80px;
+	margin-top: 10px;
+
+}
+.i_u
+{
+	
+	background-color:#113e7b;
+	height: 30px;
+	border: currentColor;
+}
+.i_u_f
+{
+
+	height: 70px;
+	background-color: #113e5b;
+	color: lightblue;
+
+}
+
+.mm2
+{
+	background-color:#113e6b; 
+}
